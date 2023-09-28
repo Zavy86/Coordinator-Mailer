@@ -4,20 +4,20 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "8461d3776736c5d7ddebd2316950ac31",
+    "content-hash": "ca8841102735ad36ec54520287938c0c",
     "packages": [
         {
             "name": "coordinator/engine",
-            "version": "1.1.13",
+            "version": "1.1.14",
             "source": {
                 "type": "git",
                 "url": "https://github.com/Zavy86/Coordinator-Engine.git",
-                "reference": "4a20133af6d87b9bf3d740952b9cd908c4761cb1"
+                "reference": "baef90b236330db5bdcb05a14ab445a7f6de0cab"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/Zavy86/Coordinator-Engine/zipball/4a20133af6d87b9bf3d740952b9cd908c4761cb1",
-                "reference": "4a20133af6d87b9bf3d740952b9cd908c4761cb1",
+                "url": "https://api.github.com/repos/Zavy86/Coordinator-Engine/zipball/baef90b236330db5bdcb05a14ab445a7f6de0cab",
+                "reference": "baef90b236330db5bdcb05a14ab445a7f6de0cab",
                 "shasum": ""
             },
             "require": {
@@ -46,9 +46,9 @@
             "homepage": "https://coordinator.it/engine",
             "support": {
                 "issues": "https://github.com/Zavy86/Coordinator-Engine/issues",
-                "source": "https://github.com/Zavy86/Coordinator-Engine/tree/1.1.13"
+                "source": "https://github.com/Zavy86/Coordinator-Engine/tree/1.1.14"
             },
-            "time": "2023-09-28T07:11:51+00:00"
+            "time": "2023-09-28T10:23:50+00:00"
         },
         {
             "name": "phpmailer/phpmailer",
