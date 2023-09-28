@@ -1,6 +1,6 @@
 {
     "type": "library",
-    "version": "1.0.1",
+    "version": "1.0.2",
     "name": "coordinator/mailer",
     "description": "Mailer addon for Coordinator/Engine",
     "homepage": "https://coordinator.it/mailer",
@@ -18,7 +18,7 @@
     },
     "require": {
         "php": "~8.2.0",
-        "coordinator/engine": "~1.1.13",
+        "coordinator/engine": "~1.1.14",
         "phpmailer/phpmailer": "~6.8.0"
     },
     "require-dev": {
