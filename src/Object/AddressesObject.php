@@ -9,13 +9,11 @@
 namespace Coordinator\Mailer\Object;
 
 use Coordinator\Engine\Object\AbstractObject;
+use Coordinator\Mailer\Collection\AddressCollection;
 
 class AddressesObject extends AbstractObject{
-	/** @var AddressObject[] $to */
-	public array $to;
-	/** @var AddressObject[] $cc */
-	public ?array $cc;
-	/** @var AddressObject[] $bcc */
-	public ?array $bcc;
+	public AddressCollection $to;
+	public ?AddressCollection $cc;
+	public ?AddressCollection $bcc;
 	public ?AddressObject $from;
 }

@@ -10,7 +10,7 @@ namespace Coordinator\Mailer\Object;
 
 use Coordinator\Engine\Object\AbstractObject;
 
-final class SendmailObject extends AbstractObject{
+class SendmailObject extends AbstractObject{
 	public AddressesObject $addresses;
 	public string $subject;
 	public string $message;
